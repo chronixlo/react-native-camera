@@ -533,7 +533,6 @@ public class RCTCameraModule extends ReactContextBaseJavaModule
                 camera.stopPreview();
 
                 // hack: don't restart preview after capture
-                camera.startPreview();
 
                 AsyncTask.execute(new Runnable() {
                     @Override
